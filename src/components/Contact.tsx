@@ -28,8 +28,8 @@ const Contact = () => {
         </div>
 
         <div className="max-w-lg mx-auto">
-          <div className="bg-card rounded-2xl p-8 shadow-soft">
-            <h3 className="font-display text-2xl font-semibold text-foreground mb-6">
+          <div className="bg-card rounded-2xl p-6 sm:p-8 shadow-soft">
+            <h3 className="font-display text-xl sm:text-2xl font-semibold text-foreground mb-6">
               Informations de Contact
             </h3>
 
