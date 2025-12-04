@@ -35,15 +35,15 @@ const Hero = () => {
 
       {/* Content */}
       <div className="relative z-10 container mx-auto px-4 pt-20">
-        <div className="max-w-2xl animate-fade-in-up">
-          <span className="inline-block px-4 py-2 bg-accent/20 text-cream rounded-full text-sm font-body mb-6">
+        <div className="max-w-2xl animate-fade-in-up px-2 sm:px-0">
+          <span className="inline-block px-3 sm:px-4 py-2 bg-accent/20 text-cream rounded-full text-xs sm:text-sm font-body mb-4 sm:mb-6">
             Expert en élevage d'insectes
           </span>
-          <h1 className="font-display text-4xl md:text-5xl lg:text-6xl font-bold text-cream mb-6 leading-tight">
+          <h1 className="font-display text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-cream mb-4 sm:mb-6 leading-tight">
             Formation & Intrants pour l'Élevage d'
             <span className="text-gold">Hannetons</span>
           </h1>
-          <p className="font-body text-lg md:text-xl text-cream/90 mb-8 leading-relaxed">
+          <p className="font-body text-base sm:text-lg md:text-xl text-cream/90 mb-6 sm:mb-8 leading-relaxed">
             Découvrez notre expertise dans l'élevage d'hannetons. Formation
             professionnelle et vente d'intrants de qualité pour réussir votre
             projet d'élevage.
